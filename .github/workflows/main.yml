@@ -1,4 +1,4 @@
-name: ci
+name: publish_clockbox
 
 on:
  workflow_dispatch:
