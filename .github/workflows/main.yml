@@ -29,5 +29,5 @@ jobs:
           push: true
           tags: ${{ secrets.DOCKER_HUB_USERNAME }}/clockbox:latest
       - name: Build docker images
-        run: docker build -t local < ./Dockerfile
+        run: docker build -t local < Dockerfile
         
